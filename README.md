@@ -42,9 +42,35 @@ whopping total of around **20** packages
         <td>
             <code>Counter.java</code>
             <br>
-            <code>Main.java</code>
+            <code>Lesson02_Main.java</code>
             <br>
             <code>Static.java</code>
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_03">03</a></td>
+        <td><ul>
+            <li>Concept of <b>encapsulation</b>;</li>
+            <li>Use of <code>arrays</code> to implement <code>stacks</code>;</li>
+            <li>Handling of <b>exceptions</b>;</li>
+            <ul>
+                <li>Use of the <code>throws</code> keyword;</li>
+                <li>Use of the <code>try {...} catch (Exception) {...}</code> block;</li>
+                <li>Creation of new exceptions</li>
+            </ul>
+        </ul></td>
+        <td>
+            <code>ArrayStack.java</code>
+            <br>
+            <code>ArrayStack2.java</code>
+            <br>
+            <code>EmptyStackException.java</code>
+            <br>
+            <code>Encapsulation.java</code>
+            <br>
+            <code>FullStackException.java</code>
+            <br>
+            <code>Lesson03_Main.java</code>
         </td>
     </tr>
 </table>
