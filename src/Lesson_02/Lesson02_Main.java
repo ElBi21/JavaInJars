@@ -1,6 +1,6 @@
 package Lesson_02;
 
-public class Main {
+public class Lesson02_Main {
     public static void main(String[] args) {
         Counter first = new Counter();
         Counter second = new Counter();
