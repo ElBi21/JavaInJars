@@ -50,7 +50,7 @@ whopping total of around **20** packages
     <tr>
         <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_03">03</a></td>
         <td><ul>
-            <li>Concept of <b>encapsulation</b>;</li>
+            <li>Concept of <b>encapsulation</b> and use of the <code>private</code> keyword;</li>
             <li>Use of <code>arrays</code> to implement <code>stacks</code>;</li>
             <li>Handling of <b>exceptions</b>;</li>
             <ul>
@@ -71,6 +71,23 @@ whopping total of around **20** packages
             <code>FullStackException.java</code>
             <br>
             <code>Lesson03_Main.java</code>
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_04">04</a></td>
+        <td><ul>
+            <li>Implementation of <b>linked lists</b>;</li>
+            <li>Introduction of the <code>null</code> value;</li>
+            <li>The <code>this</code> object</li>
+        </ul></td>
+        <td>
+            <code>EmptyStackException.java</code>
+            <br>
+            <code>IntList.java</code>
+            <br>
+            <code>Lesson04_Main.java</code>
+            <br>
+            <code>ListStack.java</code>
         </td>
     </tr>
 </table>
