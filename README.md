@@ -90,4 +90,20 @@ whopping total of around **20** packages
             <code>ListStack.java</code>
         </td>
     </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_05">05</a></td>
+        <td><ul>
+            <li>Introduction to <b>subclasses</b>;</li>
+            <li>Use of <code>this</code> and <code>super</code> to respectively call the subclass'
+                or the super class' constructor;</li>
+            <li>Concepts of <b>inheritance</b>, <b>overloading</b> and <b>overriding</b></li>
+        </ul></td>
+        <td>
+            <code>FirstClass.java</code>
+            <br>
+            <code>Lesson05_Main.java</code>
+            <br>
+            <code>SecondClass.java</code>
+        </td>
+    </tr>
 </table>
