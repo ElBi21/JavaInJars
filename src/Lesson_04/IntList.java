@@ -23,6 +23,11 @@ public class IntList {
         this.tail = tail;
     }
 
+    /* When an object calls a method of a class, via the "this" keyword we can access to the object itself. This can
+    *  be useful while trying for instance to edit a value of such object (either via a method that ensures
+    *  encapsulation or via directly accessing an attribute)
+    * */
+
     /**Prints (recursively) the first {@code n} elements of the list
      * @param n the number of elements that we want to print*/
     public void printList(int n) {
