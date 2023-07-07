@@ -17,8 +17,8 @@ public class SecondClass extends FirstClass {
         System.out.println("[CLASS 2] I'm crazy");
     }
 
-    public void plus (String s) { // overload
-        System.out.println(s);
+    public void plus (String aString) { // overload
+        System.out.println(aString);
     }
 
     public void plus () { // override

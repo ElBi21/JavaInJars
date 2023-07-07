@@ -96,7 +96,9 @@ whopping total of around **20** packages
             <li>Introduction to <b>subclasses</b>;</li>
             <li>Use of <code>this</code> and <code>super</code> to respectively call the subclass'
                 or the super class' constructor;</li>
-            <li>Concepts of <b>inheritance</b>, <b>overloading</b> and <b>overriding</b></li>
+            <li>Concepts of <b>inheritance</b>, <b>overloading</b> and <b>overriding</b>;</li>
+            <li>Concept of <b>polymorphism</b>: methods are treated <b>dynamically</b>, while
+                attributes are treated <b>statically</b></li>
         </ul></td>
         <td>
             <code>FirstClass.java</code>
