@@ -108,4 +108,29 @@ whopping total of around **20** packages
             <code>SecondClass.java</code>
         </td>
     </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_06">06</a></td>
+        <td><ul>
+            <li>Introduction to <b>packages</b>;</li>
+            <li>Use of <code>this</code> and <code>super</code> to respectively call the subclass'
+                or the super class' constructor;</li>
+            <li>Concepts of <b>inheritance</b>, <b>overloading</b> and <b>overriding</b>;</li>
+            <li>Concept of <b>polymorphism</b>: methods are treated <b>dynamically</b>, while
+                attributes are treated <b>statically</b></li>
+        </ul></td>
+        <td>
+            <code>Package01</code><br><ul>
+                <li><code>SuperPowers.java</code></li>
+                <li><code>TestPackage01Class.java</code></li>
+            </ul>
+            <code>Package02</code><br><ul>
+                <li><code>Powers.java</code></li>
+                <li><code>TestPackage02Class.java</code></li>
+            </ul>
+            <code>Package03</code><br><ul>
+                <li><code>ClassOne.java</code></li>
+                <li><code>ClassTwo.java</code></li>
+            </ul>
+        </td>
+    </tr>
 </table>

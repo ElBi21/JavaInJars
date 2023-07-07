@@ -72,7 +72,7 @@ public class Lesson05_Main {
         // the valueTwo of FirstClass is read
 
         /* In a slogan: methods are dispatched dynamically (they can override), attributes statically
-         * (they can't override)
+         * (they can't override). Static methods CANNOT BE OVERRIDE by other methods.
          */
     }
 }
