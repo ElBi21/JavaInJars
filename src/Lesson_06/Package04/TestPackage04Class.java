@@ -2,7 +2,7 @@ package Lesson_06.Package04;
 
 public class TestPackage04Class {
     public static void TestPackage04 () {
-        // creates two IntVars and compares them
+        // Creates two IntVars and compares them
 
         IntegerVar v1 = new IntegerVar_01();
         // v1.extraJunk(); // no way!
@@ -10,7 +10,7 @@ public class TestPackage04Class {
         IntegerVar v2 = new IntegerVar_02();
 
         if (cmpVars(v1, v2)) {
-            System.out.println("can't distinguish them!");
+            System.out.println("Value1 and Value2 are equal. Can't distinguish them!");
         }
     }
 
