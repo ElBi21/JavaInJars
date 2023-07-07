@@ -5,7 +5,10 @@ public class TestPackage04Class {
         // Creates two IntVars and compares them
 
         IntegerVar v1 = new IntegerVar_01();
-        // v1.extraJunk(); // no way!
+        // Similarly to what we said in Lesson 05 regarding subclasses, v1 is of type IntegerVar, so the interface, not
+        // the implementing class. This means that we can't use the extraJunk() method. We could've used it if there was
+        // an extraJunk() method also in the IntegerVar interface
+        // WRE: v1.extraJunk(); // No way!
 
         IntegerVar v2 = new IntegerVar_02();
 
