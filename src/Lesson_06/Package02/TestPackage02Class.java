@@ -2,13 +2,13 @@ package Lesson_06.Package02;
 
 public class TestPackage02Class {
     public static void TestPackage02 () {
-        //shows the difference between private and package-private
+        // Shows the difference between private and package-private
 
-        Powers p = new Powers();
+        Powers powerObject = new Powers();
 
-        System.out.println(p.ninth); // access to a public field
-        // System.out.println(p.tenth); // access to a private field (failed!)
-        System.out.println(p.twelfth); // access to a protected field
-        // protectd seems to behave like public, but...
+        System.out.println(powerObject.ninth); // Access to a public field
+        // WRE: System.out.println(p.tenth); // Access to a private field (failed!)
+        System.out.println(powerObject.twelfth); // Access to a protected field
+        // Protected seems to behave like public, but it actually differs
     }
 }

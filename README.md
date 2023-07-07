@@ -109,27 +109,68 @@ whopping total of around **20** packages
         </td>
     </tr>
     <tr>
-        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_06">06</a></td>
+        <td align="center" rowspan="5"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_06">06</a></td>
         <td><ul>
-            <li>Introduction to <b>packages</b>;</li>
-            <li>Use of <code>this</code> and <code>super</code> to respectively call the subclass'
-                or the super class' constructor;</li>
-            <li>Concepts of <b>inheritance</b>, <b>overloading</b> and <b>overriding</b>;</li>
-            <li>Concept of <b>polymorphism</b>: methods are treated <b>dynamically</b>, while
-                attributes are treated <b>statically</b></li>
+            <li><b>Packages</b>, <b>interfaces</b>, <b>abstract</b> classes and methods, <b>access modifiers</b> (each
+                   topic is explained in a different package)</li>
+        </ul></td>
+        <td>
+            <code>Lesson06_Main</code>
+        </td>
+    </tr>
+    <tr>
+        <td><ul>
+            <li>Introduction to <b>packages</b> (1/2);</li>
+            <li>Extendability of packages through other packages;</li>
         </ul></td>
         <td>
             <code>Package01</code><br><ul>
                 <li><code>SuperPowers.java</code></li>
                 <li><code>TestPackage01Class.java</code></li>
             </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><ul>
+            <li>Introduction to <b>packages</b> (2/2);</li>
+            <li>Access modifiers (<code>public</code>, <code>package-private</code> (or <code>default</code>),
+                <code>protected</code> and <code>private</code>);</li>
+        </ul></td>
+        <td>
             <code>Package02</code><br><ul>
                 <li><code>Powers.java</code></li>
                 <li><code>TestPackage02Class.java</code></li>
             </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><ul>
+            <li>Application of <b>inheritance</b> in packages;</li>
+            <li>Dynamicity of <code>this</code> and staticity of <code>super</code>;</li>
+        </ul></td>
+        <td>
             <code>Package03</code><br><ul>
                 <li><code>ClassOne.java</code></li>
                 <li><code>ClassTwo.java</code></li>
+                <li><code>ClassThree.java</code></li>
+                <li><code>TestPackage03Class.java</code></li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><ul>
+            <li>Introduction to <b>interfaces</b> and <b>abstract</b> classses;</li>
+            <li>Concrete methods against abstract methods;</li>
+            <li>Concepts of <b>variable</b>;</li>
+        </ul></td>
+        <td>
+            <code>Package04</code><br><ul>
+                <li><code>IntegerVar.java</code></li>
+                <li><code>IntegerVar_01.java</code></li>
+                <li><code>IntegerVar_02.java</code></li>
+                <li><code>ReadableInteger.java</code></li>
+                <li><code>WritableInteger.java</code></li>
+                <li><code>TestPackage04Class.java</code></li>
             </ul>
         </td>
     </tr>
