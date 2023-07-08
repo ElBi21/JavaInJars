@@ -219,4 +219,20 @@ whopping total of around **20** packages
             <br>
         </td>
     </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_09">09</a></td>
+        <td><ul>
+            <li><b>Generics</b>: implementation of <code>GenericList</code>;</li>
+            <li><b>Identities</b>: differences between <code>==</code> and <code>equals()</code>;</li>
+        </ul></td>
+        <td>
+            <code>GenericIdentity.java</code>
+            <br>
+            <code>GenericList.java</code>
+            <br>
+            <code>IntList.java</code>
+            <br>
+            <code>Lesson09_Main.java</code>
+        </td>
+    </tr>
 </table>
