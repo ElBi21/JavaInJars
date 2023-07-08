@@ -6,7 +6,7 @@ public class ConcreteBenchmark extends Benchmark{
     }
 
     public void action() { // tics
-        System.out.println("tic");
+        System.out.println("Acting...");
         for (int i = 0; i<10000; i++) {
             pass();
         }
