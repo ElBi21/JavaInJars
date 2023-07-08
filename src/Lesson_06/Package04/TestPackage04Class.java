@@ -12,12 +12,12 @@ public class TestPackage04Class {
 
         IntegerVar v2 = new IntegerVar_02();
 
-        if (cmpVars(v1, v2)) {
+        if (compareVars(v1, v2)) {
             System.out.println("Value1 and Value2 are equal. Can't distinguish them!");
         }
     }
 
-    public static boolean cmpVars(IntegerVar x, IntegerVar y) {
+    public static boolean compareVars(IntegerVar x, IntegerVar y) {
         // Runs a simple comparison test on int vars
         x.assign(7);
         y.assign(7);

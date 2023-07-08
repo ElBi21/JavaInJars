@@ -174,4 +174,21 @@ whopping total of around **20** packages
             </ul>
         </td>
     </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_07">07</a></td>
+        <td><ul>
+            <li>Further examples of <b>abstract</b> classes and introduction of <b>abstract methods</b>;</li>
+            <li><b>Static</b> fields.</li>
+        </ul></td>
+        <td>
+            <code>Benchmark.java</code>
+            <br>
+            <code>Children.java</code>
+            <br>
+            <code>ConcreteBenchmark.java</code>
+            <br>
+            <code>Lesson07_Main.java</code>
+            <br>
+        </td>
+    </tr>
 </table>
