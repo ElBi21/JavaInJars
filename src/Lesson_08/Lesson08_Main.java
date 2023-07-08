@@ -12,6 +12,9 @@ public class Lesson08_Main {
 
         System.out.println("------- Starting Inner Classes Test -------");
         TestStates();
+
+        System.out.println("------- Starting Local Classes Test -------");
+        TestLocalClasses.TestLocalClass();
     }
 
     public static void TestInterfacesClash () {

@@ -191,4 +191,32 @@ whopping total of around **20** packages
             <br>
         </td>
     </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_08">08</a></td>
+        <td><ul>
+            <li>Interfaces: <b>fields</b>, <code>static</code> and <code>default</code> interface methods;</li>
+            <li>Inheritance of <code>default</code> methods for multiple interfaces;</li>
+            <li><b>Inner</b> classes, <b>inner</b> and <b>outer</b> objects;</li>
+            <li><b>Scopes</b>;</li>
+            <li><b>Local classes</b></li>
+        </ul></td>
+        <td>
+            <code>Clash.java</code>
+            <br>
+            <code>Interface1.java</code>
+            <br>
+            <code>Interface2.java</code>
+            <br>
+            <code>Lesson08_Main.java</code>
+            <br>
+            <code>ReverseStack.java</code>
+            <br>
+            <code>Stack.java</code>
+            <br>
+            <code>State.java</code>
+            <br>
+            <code>TestLocalClasses.java</code>
+            <br>
+        </td>
+    </tr>
 </table>
