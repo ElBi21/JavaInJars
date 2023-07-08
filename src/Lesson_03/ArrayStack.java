@@ -1,4 +1,5 @@
 package Lesson_03;
+import Lesson_08.*;
 
 /** In computer programming, a {@code stack} is a data structure that stores a collection of elements, with
  * two main operations: push, which adds an element to the top of the stack, and pop, which removes
@@ -20,7 +21,7 @@ package Lesson_03;
  *  happen also if we want to add too many elements: we recall that arrays in Java have fixed lengths.
  * */
 
-public class ArrayStack {
+public class ArrayStack implements Stack {
     private final static int SIZE = 10;
     private int[] stk;
 
@@ -28,37 +29,32 @@ public class ArrayStack {
      * the last item of the stack. In order to access to the rest of the stack, we just have to pop
      * until we get to the element that we need.
      * */
-
     private int top = -1;
 
-    ArrayStack() {
+    public ArrayStack() {
         stk = new int[SIZE];
     }
 
     /** Here we define two different constructors, depending on if we pass a length or not
      * @param l the length of the stack*/
-
     ArrayStack(int l) {
         stk = new int[l];
     }
 
     /** Since all the attributes are private, then we are retrieving the length via public methods */
-
     public int length () {
         return stk.length;
     }
 
     /** Now we want to implement the two most important methods: push and pop */
-
     public void push (int v) {
         // inserts an int on top of the stack
         stk[++top] = v;
     }
 
-    /** We don't need the pop to actually remove the item, because the push will overwrite the previous values */
-
+    /** We don't need the pop to actually remove the item, because the push will overwrite the previous values. In
+     * general, {@code pop()} will extract the top element and return it */
     public int pop () {
-        //extracts the top element and returns it
         return stk[top--];
     }
 
@@ -68,5 +64,9 @@ public class ArrayStack {
             System.out.printf("Item %s: %s\n", counter, item);
             counter++;
         }
+    }
+
+    public boolean is_empty () {
+        return top == -1;
     }
 }

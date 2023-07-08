@@ -1,9 +1,10 @@
 package Lesson_04;
+import Lesson_08.*;
 
 /** The class implements {@code stacks} via the use of an {@link IntList}
  * */
 
-public class ListStack {
+public class ListStack implements Stack {
     /**The length of the stack*/
     public int len = 0;
     /**The list that implements the stack, of type {@link IntList}*/
