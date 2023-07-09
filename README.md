@@ -259,4 +259,30 @@ whopping total of around **20** packages
             <code>WildcardTest.java</code>
         </td>
     </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_11">11</a></td>
+        <td><ul>
+            <li><b>Anonymous classes</b>: implementation by <b>extending classes</b> and by <b>implementing interfaces</b>;</li>
+            <li><b>Functional interfaces</b>;</li>
+            <li><b>Lambda expressions</b> for replacing anonymous classes;</li>
+            <li><b>Closures</b></li>
+        </ul></td>
+        <td>
+            <code>Closures.java</code>
+            <br>
+            <code>Functio.java</code>
+            <br>
+            <code>FunctioTest.java</code>
+            <br>
+            <code>LambdaTest.java</code>
+            <br>
+            <code>Lesson11_Main.java</code>
+            <br>
+            <code>MyReadable.java</code>
+            <br>
+            <code>Readable.java</code>
+            <br>
+            <code>TestAnonymous.java</code>
+        </td>
+    </tr>
 </table>
