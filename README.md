@@ -235,4 +235,28 @@ whopping total of around **20** packages
             <code>Lesson09_Main.java</code>
         </td>
     </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_10">10</a></td>
+        <td><ul>
+            <li><b>Generics</b>: <b>raw types</b>, <b>covariance</b> and <b>contravariance</b>;</li>
+            <li><b>Wildcard</b>: use of <code>?</code> for indicating any type;</li>
+        </ul></td>
+        <td>
+            <code>ClassOne.java</code>
+            <br>
+            <code>ClassTwo.java</code>
+            <br>
+            <code>ClassThree.java</code>
+            <br>
+            <code>Generics.java</code>
+            <br>
+            <code>GenericsOne.java</code>
+            <br>
+            <code>GenericsTwo.java</code>
+            <br>
+            <code>Lesson10_Main.java</code>
+            <br>
+            <code>WildcardTest.java</code>
+        </td>
+    </tr>
 </table>
