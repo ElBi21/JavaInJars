@@ -121,7 +121,7 @@ whopping total of around **20** packages
     <tr>
         <td><ul>
             <li>Introduction to <b>packages</b> (1/2);</li>
-            <li>Extendability of packages through other packages;</li>
+            <li>Extendability of packages through other packages</li>
         </ul></td>
         <td>
             <code>Package01</code><br><ul>
@@ -134,7 +134,7 @@ whopping total of around **20** packages
         <td><ul>
             <li>Introduction to <b>packages</b> (2/2);</li>
             <li>Access modifiers (<code>public</code>, <code>package-private</code> (or <code>default</code>),
-                <code>protected</code> and <code>private</code>);</li>
+                <code>protected</code> and <code>private</code>)</li>
         </ul></td>
         <td>
             <code>Package02</code><br><ul>
@@ -146,7 +146,7 @@ whopping total of around **20** packages
     <tr>
         <td><ul>
             <li>Application of <b>inheritance</b> in packages;</li>
-            <li>Dynamicity of <code>this</code> and staticity of <code>super</code>;</li>
+            <li>Dynamicity of <code>this</code> and staticity of <code>super</code></li>
         </ul></td>
         <td>
             <code>Package03</code><br><ul>
@@ -161,7 +161,7 @@ whopping total of around **20** packages
         <td><ul>
             <li>Introduction to <b>interfaces</b> and <b>abstract</b> classses;</li>
             <li>Concrete methods against abstract methods;</li>
-            <li>Concepts of <b>variable</b>;</li>
+            <li>Concepts of <b>variable</b></li>
         </ul></td>
         <td>
             <code>Package04</code><br><ul>
@@ -178,7 +178,7 @@ whopping total of around **20** packages
         <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_07">07</a></td>
         <td><ul>
             <li>Further examples of <b>abstract</b> classes and introduction of <b>abstract methods</b>;</li>
-            <li><b>Static</b> fields.</li>
+            <li><b>Static</b> fields</li>
         </ul></td>
         <td>
             <code>Benchmark.java</code>
@@ -223,7 +223,7 @@ whopping total of around **20** packages
         <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_09">09</a></td>
         <td><ul>
             <li><b>Generics</b>: implementation of <code>GenericList</code>;</li>
-            <li><b>Identities</b>: differences between <code>==</code> and <code>equals()</code>;</li>
+            <li><b>Identities</b>: differences between <code>==</code> and <code>equals()</code></li>
         </ul></td>
         <td>
             <code>GenericIdentity.java</code>
@@ -239,7 +239,7 @@ whopping total of around **20** packages
         <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_10">10</a></td>
         <td><ul>
             <li><b>Generics</b>: <b>raw types</b>, <b>covariance</b> and <b>contravariance</b>;</li>
-            <li><b>Wildcard</b>: use of <code>?</code> for indicating any type;</li>
+            <li><b>Wildcard</b>: use of <code>?</code> for indicating any type</li>
         </ul></td>
         <td>
             <code>ClassOne.java</code>
@@ -283,6 +283,25 @@ whopping total of around **20** packages
             <code>Readable.java</code>
             <br>
             <code>TestAnonymous.java</code>
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_12">12</a></td>
+        <td><ul>
+            <li>Introduction to <b>Threads</b> and <b>Runnables</b>;</li>
+            <li>Implementation of <code>delay()</code> and <code>run()</code> methods;</li>
+            <li>Use of <b>lambda expressions</b> for creating a <code>run()</code> method</li>
+        </ul></td>
+        <td>
+            <code>CompulsiveWordPrinter.java</code>
+            <br>
+            <code>Lesson12_Main.java</code>
+            <br>
+            <code>SleepyWordPrinter.java</code>
+            <br>
+            <code>ThreadTest.java</code>
+            <br>
+            <code>WordPrinter.java</code>
         </td>
     </tr>
 </table>
