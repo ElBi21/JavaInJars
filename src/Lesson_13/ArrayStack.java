@@ -27,7 +27,8 @@ public class ArrayStack {
     }
 
     /** Extracts and returns the element on top of the stack, if the stack is not empty. If the method is
-     * un-synchronized, the printing and the extraction by two threads may be interleaved
+     * un-synchronized, the printing and the extraction by two threads may be interleaved. Normally, when synchronized
+     * is written in a method, it generally refers to {@code this} (so it's like doing {@code synchronized (this) {}}).
      * */
     // public synchronized int pop () throws EmptyStackException, InterruptedException {
     public int pop () throws EmptyStackException, InterruptedException {
@@ -41,7 +42,7 @@ public class ArrayStack {
         }
         top = top - 1;
         Thread.currentThread().sleep(100);
-        // this command, if in un-synchronized context, may
+        // This command, if in un-synchronized context, may
         // cause loss of elements (see AMess: 42 is lost)
         return stk[top + 1];
         }
