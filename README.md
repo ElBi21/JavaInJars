@@ -304,4 +304,31 @@ whopping total of around **20** packages
             <code>WordPrinter.java</code>
         </td>
     </tr>
+    <tr>
+        <td align="center"><a href="https://github.com/ElBi21/Java-In-Jars/tree/main/src/Lesson_13">13</a></td>
+        <td><ul>
+            <li><b>Threads</b>: concept of <b>locks</b> and <b>monitors</b>;</li>
+            <li>Implementation of <code>synchronized</code> methods or blocks;</li>
+            <li>Concept of <b>deadlock</b></li>
+        </ul></td>
+        <td>
+            <code>ArrayStack.java</code>
+            <br>
+            <code>AThreadMess.java</code>
+            <br>
+            <code>DeadLock.java</code>
+            <br>
+            <code>DeadManWarning.java</code>
+            <br>
+            <code>Lesson13_Main.java</code>
+            <br>
+            <code>NamedThread.java</code>
+            <br>
+            <code>NamePrinter.java</code>
+            <br>
+            <code>Popper.java</code>
+            <br>
+            <code>TestPrinter.java</code>
+        </td>
+    </tr>
 </table>
