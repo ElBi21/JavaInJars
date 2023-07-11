@@ -3,11 +3,13 @@ package Lesson_11;
 public class TestAnonymous {
     // When creating anonymous classes, there are mainly two ways: we can either extend a class or implement an
     // interface
+    public static int what = 3;
+
 
     public static void TestAnonymousClasses() {
         String greeting = "Hello";
 
-        Readable<String> anonymousByExtension = new MyReadable<>("Crazy") {
+        Readable<String> anonymousByExtension = new MyReadable<>(greeting) {
             // This anonymous class extends MyReadable<String>, and creates a new get() method, which will override the
             // get() method in MyReadable. When an anonymous class is created by extending another class, it has the
             // same restrictions of the local classes, such as being able to access to only final (or effectively final
@@ -26,6 +28,10 @@ public class TestAnonymous {
         Readable<Integer> anonymousByImplementation = new Readable<Integer>() {
             // In this other example of anonymous class, we made one by implementing the interface Readable<Integer>. In
             // this case, we can only use the default constructor of the interface itself
+
+            /*public Integer wow() {
+                return 3;
+            }*/
 
             @Override
             public Integer get() {

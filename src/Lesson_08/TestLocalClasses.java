@@ -26,6 +26,10 @@ public class TestLocalClasses {
 
                 return 42;
             }
+
+            LocalInner () {
+
+            }
         }
 
         // Why can local classes only access to final or effectively final local variables? For the way that local
@@ -40,13 +44,14 @@ public class TestLocalClasses {
         return new LocalInner().anotherMethod(); // weirdly enough, this would still be ok if q() were private!
 
         // what if m() returned an object of *local* type LocalInner!?
-        // WRE: return new LocalInner(); // Must change the return type of m()
+        // WRE: return new LocalInner(); // Must change the return type of aRandomMethod()
     }
 
     public static void TestLocalClass () {
         Inner I;
         // WRE: LocalInner J; // LocalInner only visible within the body of m()
 
-        System.out.println(new TestLocalClasses().aRandomMethod());
+        Object localClassObject = new TestLocalClasses().aRandomMethod();
+        System.out.println(localClassObject);
     }
 }

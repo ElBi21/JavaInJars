@@ -14,22 +14,22 @@ Venia peto, tedia afficio, ibi octo horas sum*
 7) [ ] What is the problem?
 8) [ ] What is the type of x? (since you're outside you can't say b; so it must be some class of type object)
 9) [ ] What is a volatile variable?
-10) [ ]  Suppose that class B is a subclass of class A. B x = new A, is this ok? (no)
+10) [ ] Suppose that class B is a subclass of class A. B x = new A, is this ok? (no)
 11) [ ] Suppose that A has an attribute name. Can also attributes, like methods be overridden?
 12) [ ] How do you override a method?
 13) [ ] What are the occasions in which you write the keyword super
 14) [ ] When is needed to use super in order to invoke te constructor of the super class
 15) [ ] (Same as before with the subclass) I have class A and class B and both an attribute name and a method m. I am in the main and I say A x = new B. Then I do x.m. then i do print.name
-16) [ ] A differrence between this and super (This dynamic, super static)
+16) [ ] A difference between this and super (This dynamic, super static)
 17) [ ] Can a constructor invoke another constructor?
 18) [ ] Can abstract classes have constructors?
 19) [ ] Why would you need that, if you can't create objects from an abstract class?
 20) [ ] public static void main wait() why can't you do that?
 21) [ ] How can you run main forever?
-22) [ ] how can we stop the thread?
-23) [ ] Who invokes isinterrupted?
-24) [ ] What are assertions.?
-25) [ ] Differrnce between exceptions and errors
+22) [ ] How can we stop the thread?
+23) [ ] Who invokes isInterrupted?
+24) [ ] What are assertions?
+25) [ ] Difference between exceptions and errors
 26) [ ] How would you implement broadcast?
 27) [ ] Are there lists already defined in standard Java?
 28) [ ] Can you implement linked lists in standard?
