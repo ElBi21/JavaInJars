@@ -360,6 +360,8 @@ whopping total of around **20** packages
     </tr>
 </table>
 
-## Licensing
+---
+
+## Licensing
 
 I do not own the original files: in fact, they are the lecture materials provided by professor P. Cenciarelli. My work consisted in readapting them into a more readable format, including extra and more verbose comments, explining what was happening in the code. The CC license exists on top of Sapienza's original Content Policy, but clearly the owner of the files (so professor Cenciarelli) dictates which policy is enforced on his material. Hence, the CC license acts only as a mere protection on my readaptation of his content. If needed, I can readapt the license, or even remove it. If you are the owner of these files, feel free to contact me if needed.
