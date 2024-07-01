@@ -1,5 +1,6 @@
 <h1 align="center">Java in Jars</h1>
 <p align="center">A collection of files made during the Programming 2 course @ Sapienza</p>
+<p xmlns:cc="http://creativecommons.org/ns#" align="center">This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a><br>The licensing builds on Sapienza's Policy regarding the sharing of didactic material. More infos at the end of the page</p> 
 
 ---
 
@@ -358,3 +359,7 @@ whopping total of around **20** packages
         </td>
     </tr>
 </table>
+
+## Licensing
+
+I do not own the original files: in fact, they are the lecture materials provided by professor P. Cenciarelli. My work consisted in readapting them into a more readable format, including extra and more verbose comments, explining what was happening in the code. The CC license exists on top of Sapienza's original Content Policy, but clearly the owner of the files (so professor Cenciarelli) dictates which policy is enforced on his material. Hence, the CC license acts only as a mere protection on my readaptation of his content. If needed, I can readapt the license, or even remove it. If you are the owner of these files, feel free to contact me if needed.
